@@ -90,6 +90,7 @@ numero_3 = int("6")
 
 media = (numero_1 + numero_2 + numero_3) / 3
 print("La nota media es", media)
+La nota media es 6.0
 ```
 
 
