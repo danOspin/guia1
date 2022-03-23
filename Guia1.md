@@ -1,7 +1,7 @@
 1. Realizar la debida instalación de Python, el intérprete o IDE de acuerdo a la Guia de Aprendizaje 1.</p>
 Hecho
 
-2. 2.Determina luego de -> (sin programar) el resultado que aparecerá por pantalla a partir de las siguientes variables:
+2. Determina luego de -> (sin programar) el resultado que aparecerá por pantalla a partir de las siguientes variables:
 ``` python
 a = 10
 b = -5
@@ -37,13 +37,13 @@ d = [1, 2, 3]
      nota_final = (nota_1 + nota_2 + nota_3) / 3     
    ```
  - Imprima en pantalla una cadena de texto que le indique “Su nota final es: "" y el resultado de nota_final
-```python
-nota_final = (nota_1 + nota_2 + nota_3) / 3     
-print("Su nota final es: "+str(nota_final)) 
-"Su nota final es: 2.033333333333333"
- ```
+   ``` python
+    nota_final = (nota_1 + nota_2 + nota_3) / 3     
+    print("Su nota final es: "+str(nota_final)) 
+    "Su nota final es: 2.033333333333333"
+   ```
 4. Cree una lista vacía, e inserte los valores de las notas 1, 2, 3, e imprima en pantalla la lista. Lista = []
-```python
+``` python
 Lista=[]
 Lista.append(nota_1)
 Lista.append(nota_2)
@@ -58,7 +58,7 @@ en una nueva variable llamada total, sume el valor de los 3 productos.
 en otra variable, calcule el valor de iva de los 3 productos 19%.
 imprima en pantalla el valor total y el valor de iva.
 
-```
+``` python
 arroz = 12500
 papa = 23000
 harina = 5300
@@ -69,13 +69,13 @@ print ('Debe pagar un total de : {2}, consistente en una suma de productos {0} y
 > Debe pagar un total de : 48552.0, consistente en una suma de productos 40800 y un iva de 7752.0
 ```
 6. El siguiente código NO funciona, identifique los errores y corrija el script. 
-````python
+``` python
 numero_1 = “9”
 numero_2 = “3”
 numero_3 = “6”
 media = (numero_1 + numero_2 + numero_3) / 3 
 Print(La nota media es, media)
-````
+```
 Listado de errores:
 
  * Se está intentando hacer una división entre variables de tipo string. La solución sería convertir a variables numéricas antes de realizar la división.
@@ -93,4 +93,15 @@ print("La nota media es", media)
 La nota media es 6.0
 ```
 
+7. Realizar el siguiente script e imprimir el resultado
+* Cree una variable llamada segundos y asígnele un valor numérico
+* Cree una variable llamada minutos que guarde la conversión de segundos a minutos
+* Cree una variable llamada horas que guarde la conversión de segundos a horas
+* Imprima en pantalla una respuesta que indique el número de segundos equivalen a x horas y x minutos
 
+
+8. Lecturas recomendadas para profundizar y apoyar los temas del taller 1.
+* Operadores Matemáticos
+* Números
+* Cadenas de caracteres
+* Listas
